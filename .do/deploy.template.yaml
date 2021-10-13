@@ -1,0 +1,7 @@
+spec:
+  name: PCP Server
+  services:
+  - name: web
+    git:
+      branch: master
+      repo_clone_url: https://github.com/alekcz/pcp-template.git
