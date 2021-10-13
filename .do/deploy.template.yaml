@@ -5,3 +5,4 @@ spec:
     git:
       branch: master
       repo_clone_url: https://github.com/alekcz/pcp-template.git
+    dockerfile_path: /Dockerfile
