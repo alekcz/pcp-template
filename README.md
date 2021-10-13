@@ -13,9 +13,11 @@ $ pcp -s /path/to/server/root
 ## Deploying
 
 You can find instructions on deploying your PCP site with nginx [here](https://github.com/alekcz/pcp/blob/master/docs/replacing-php.md).   
-Or you could just use this nifty button to deploy to Digital Ocean.  
+Or you could just use this nifty button to deploy to DigitalOcean.  
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/alekcz/pcp-template/tree/master)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/alekcz/pcp-template/tree/master&refcode=a0cfd79e40a2)
+
+We both get credits for DigitalOcean if you end using their services so be a mate. 
 
 ## License
 
