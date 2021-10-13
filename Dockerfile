@@ -1,4 +1,4 @@
-FROM  alekcz/pcp:v0.0.3-alpha
+FROM  alekcz/pcp:v0.0.3-alpha.1
 
 # In scrict mode (default) the path must start with INSTALL_ROOT which is /var/pcp by default
 # when strict mode is off the path is set by http header in the request
@@ -15,9 +15,8 @@ FROM  alekcz/pcp:v0.0.3-alpha
 WORKDIR /var/pcp
 COPY . /var/pcp
 
-CMD ["java","-DPORT=$PORT","-jar","/var/pcp/pcp-server.jar"]
 # building the image
-# docker build -t pcp:v1 .
+# docker build -t pcp-template:v1 .
 
 # running the image
-# docker run -p 9000:9000 -v ~/path/to/pcp-project:/var/pcp/default pcp:v1
+# docker run -p $PORT:$PORT -e PORT=$PORT pcp-template:v1
