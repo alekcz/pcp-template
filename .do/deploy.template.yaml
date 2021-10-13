@@ -1,4 +1,5 @@
 spec:
+  name: pcp
   services:
   - name: pcp
     git:
