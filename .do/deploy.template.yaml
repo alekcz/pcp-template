@@ -1,5 +1,5 @@
 spec:
-  name: PCP Server
+  name: pcp
   services:
   - name: web
     git:
