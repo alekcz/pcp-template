@@ -1,4 +1,4 @@
-FROM  alekcz/pcp:v0.0.3-alpha.1
+FROM  alekcz/pcp:v0.0.3-alpha.2
 
 # In scrict mode (default) the path must start with INSTALL_ROOT which is /var/pcp by default
 # when strict mode is off the path is set by http header in the request
@@ -16,7 +16,7 @@ WORKDIR /var/pcp
 COPY . /var/pcp
 
 # building the image
-# docker build -t pcp-template:v1 .
+# docker build -t pcp-template:v0.0.3-alpha.2 .
 
 # running the image
-# docker run -p $PORT:$PORT -e PORT=$PORT pcp-template:v1
+# docker run -p $PORT:$PORT -e PORT=$PORT pcp-template:v0.0.3-alpha.2
