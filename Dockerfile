@@ -1,4 +1,4 @@
-FROM  alekcz/pcp:v0.0.3-alpha.2
+FROM  alekcz/pcp:latest
 
 # In scrict mode (default) the path must start with INSTALL_ROOT which is /var/pcp by default
 # when strict mode is off the path is set by http header in the request
