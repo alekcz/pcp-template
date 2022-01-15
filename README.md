@@ -19,6 +19,10 @@ Or you could just use this nifty button to deploy to DigitalOcean.
 
 We both get credits for DigitalOcean if you end using their services so be a mate. 
 
+Or you could deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## License
 
 Copyright © 2021 FIXME
