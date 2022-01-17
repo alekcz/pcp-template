@@ -6,7 +6,7 @@
   "keywords": ["pcp", "clojure"],
   "stack": "container",
   "formation": {
-    "worker": {
+    "web": {
       "quantity": 1
     }
   }
